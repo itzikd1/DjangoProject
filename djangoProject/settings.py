@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'MySite.apps.MysiteConfig',
     'rest_framework',
     'experience',
-    'projects',
+    'projects.apps.ProjectsConfig',
     'skills.apps.SkillsConfig'
 ]
 
