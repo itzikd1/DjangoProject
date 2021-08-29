@@ -1,8 +1,6 @@
 from django.urls import path
-from django.views.generic import TemplateView
-
-app_name = 'projects'
+from . import views
 
 urlpatterns = [
-    path('', TemplateView.as_view(template_name="projects/index.html")),
+    path('', views.ProjectsSerializer.as_view()),
 ]
