@@ -36,9 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'MySite.apps.MysiteConfig',
+    'rest_framework',
     'experience',
-    'skills',
     'projects',
+    'skills.apps.SkillsConfig'
 ]
 
 MIDDLEWARE = [
